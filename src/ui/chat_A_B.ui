@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_A">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>40</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Browse..</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_B">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>40</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Browse..</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_chart" native="true">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>150</y>
+     <width>491</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 208, 208);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Done">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>90</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 255, 127);</string>
+   </property>
+   <property name="text">
+    <string>Done!</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>60</y>
+     <width>491</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLineEdit" name="lineEdit_A"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="lineEdit_B"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

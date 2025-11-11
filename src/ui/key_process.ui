@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>566</width>
+    <height>319</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(172, 172, 172);</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>10</y>
+     <width>531</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QSplitter" name="splitter">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QComboBox" name="comboBox">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>Operation</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Inspection</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Transportation</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Delay</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Storage</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Del</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 255, 0);
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>+ เพิ่ม</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
